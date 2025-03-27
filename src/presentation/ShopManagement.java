@@ -61,7 +61,7 @@ public class ShopManagement {
                         choice = Integer.parseInt(scanner.nextLine());
                         switch (choice) {
                             case 1:
-                                OrderBusiness.displayOrders();
+
                                 break;
                             case 2:
 

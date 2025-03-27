@@ -17,7 +17,7 @@ public class OrderBusiness implements IOrderBusiness{
     }
 
     @Override
-    public static void displayOrders() {
+    public void displayOrders() {
         for(Order order : ShopManagement.orderList){
             System.out.println(order.toString());
         }
